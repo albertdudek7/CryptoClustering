@@ -1,4 +1,6 @@
 # CryptoClustering
+
+In-class activities helped with structuring the code: pca_solution and energize_your_stock_clustering_solution
 Instructions
 Rename the Crypto_Clustering_starter_code.ipynb file as Crypto_Clustering.ipynb.
 
