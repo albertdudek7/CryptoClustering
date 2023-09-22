@@ -1,4 +1,4 @@
-# Crypto Clustering using K values and scaled DataFrame
+# Crypto Clustering using Elbow Curves and K values.
 
 Finding the best value for K for Original Scaled Data and PCA Data on several Crytpo Currencies.
 By using the elbow method to identify best value for K. 
@@ -27,6 +27,12 @@ Find the Best Value for k Using the PCA Data
 
 ![image](https://github.com/albertdudek7/Crypto_Clustering_using_K_values/assets/127783844/29641a44-423e-402f-85da-52580953fb11)
 
+![image](https://github.com/albertdudek7/Crypto_Clustering_using_K_values/assets/127783844/2b74727b-caf1-4a4e-9a68-31643d2fa9aa)
+
+Answer the following question:
+Question: After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
+
+Answer: Using K-Means to cluster the data using fewer features makes it much easier to visualize the data, the elbow line graph is a lot more distinct hence choosing the right K value more of a certainty.
 Create a list with the number of k-values from 1 to 11.
 Create an empty list to store the inertia values.
 Create a for loop to compute the inertia with each possible value of k.
