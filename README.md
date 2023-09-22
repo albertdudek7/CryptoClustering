@@ -15,6 +15,9 @@ Use the StandardScaler() module from scikit-learn to normalize the data from the
 Find the Best Value for k Using the Original Scaled DataFrame
 Use the elbow method to find the best value for k using the following steps:
 
+![image](https://github.com/albertdudek7/Crypto_Clustering_using_K_values/assets/127783844/4c6fa4af-4630-4f9a-8442-2797e1dfe72e)
+
+
 Create a list with the number of k values from 1 to 11.
 Create an empty list to store the inertia values.
 Create a for loop to compute the inertia with each possible value of k.
