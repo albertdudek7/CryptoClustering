@@ -2,19 +2,15 @@
 
 Load the crypto_market_data.csv into a DataFrame.
 
-![image](https://github.com/albertdudek7/Crypto_Clustering_using_K_values/assets/127783844/b3bfc139-806f-40cb-b226-c61d96f07f5b)
-
-
 Get the summary statistics and plot the data to see what the data looks like before proceeding.
+
+![image](https://github.com/albertdudek7/Crypto_Clustering_using_K_values/assets/127783844/b3bfc139-806f-40cb-b226-c61d96f07f5b)
 
 Prepare the Data
 Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
 
-Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
+![image](https://github.com/albertdudek7/Crypto_Clustering_using_K_values/assets/127783844/d4b501d1-fcf6-48f0-a6ec-c1d86bcac1af)
 
-The first five rows of the scaled DataFrame should appear as follows:
-
-The first five rows of the scaled DataFrame
 
 Find the Best Value for k Using the Original Scaled DataFrame
 Use the elbow method to find the best value for k using the following steps:
