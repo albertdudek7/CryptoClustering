@@ -1,10 +1,9 @@
-# CryptoClustering
-
-In-class activities helped with structuring the code: pca_solution and energize_your_stock_clustering_solution
-Instructions
-Rename the Crypto_Clustering_starter_code.ipynb file as Crypto_Clustering.ipynb.
+# Crypto Clustering using K values and scaled DataFrame
 
 Load the crypto_market_data.csv into a DataFrame.
+
+![image](https://github.com/albertdudek7/Crypto_Clustering_using_K_values/assets/127783844/b3bfc139-806f-40cb-b226-c61d96f07f5b)
+
 
 Get the summary statistics and plot the data to see what the data looks like before proceeding.
 
