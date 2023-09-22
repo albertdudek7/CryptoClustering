@@ -27,30 +27,14 @@ Find the Best Value for k Using the PCA Data
 
 ![image](https://github.com/albertdudek7/Crypto_Clustering_using_K_values/assets/127783844/29641a44-423e-402f-85da-52580953fb11)
 
-![image](https://github.com/albertdudek7/Crypto_Clustering_using_K_values/assets/127783844/2b74727b-caf1-4a4e-9a68-31643d2fa9aa)
+![image](https://github.com/albertdudek7/Crypto_Clustering_using_K_values/assets/127783844/50cba798-9c93-44b6-a49a-ea28e989a902)
+
+![image](https://github.com/albertdudek7/Crypto_Clustering_using_K_values/assets/127783844/591e05b0-1920-4d9d-b81f-c71ce42615d4)
+
+![image](https://github.com/albertdudek7/Crypto_Clustering_using_K_values/assets/127783844/c11658f7-f59e-45e8-a976-58547b3053a1)
+
 
 Answer the following question:
 Question: After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
 
-Answer: Using K-Means to cluster the data using fewer features makes it much easier to visualize the data, the elbow line graph is a lot more distinct hence choosing the right K value more of a certainty.
-Create a list with the number of k-values from 1 to 11.
-Create an empty list to store the inertia values.
-Create a for loop to compute the inertia with each possible value of k.
-Create a dictionary with the data to plot the Elbow curve.
-Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
-Answer the following question in your notebook:
-What is the best value for k when using the PCA data?
-Does it differ from the best k value found using the original data?
-Cluster Cryptocurrencies with K-means Using the PCA Data
-Use the following steps to cluster the cryptocurrencies for the best value for k on the PCA data:
-
-Initialize the K-means model with the best value for k.
-Fit the K-means model using the PCA data.
-Predict the clusters to group the cryptocurrencies using the PCA data.
-Create a copy of the DataFrame with the PCA data and add a new column to store the predicted clusters.
-Create a scatter plot using hvPlot as follows:
-Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
-Color the graph points with the labels found using K-means.
-Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
-Answer the following question:
-What is the impact of using fewer features to cluster the data using K-Means?
+![image](https://github.com/albertdudek7/Crypto_Clustering_using_K_values/assets/127783844/294d485b-b711-479e-b141-5c572338a168)
